@@ -5,17 +5,17 @@ In the social media and content ecosystem, audience opinions strongly influence 
 This project builds an end-to-end Data & AI pipeline on Databricks to transform raw IMDb movie reviews into actionable business insights using the Medallion Architecture (Bronze → Silver → Gold), sentiment analysis, and machine learning.
 The solution enables stakeholders to understand what audiences like, what polarizes them, and where ratings and sentiment disagree, supporting data-driven content strategy decisions.
 
-####Problem Statement
+#### Problem Statement
 Movie platforms and content teams often rely heavily on ratings, which do not always capture true audience sentiment. Positive or negative emotions expressed in reviews may contradict ratings, leading to misleading performance evaluation.
 
-####Objective:
+#### Objective:
 Build a scalable analytics and ML solution that:
 - Converts raw movie reviews into structured sentiment signals.
 - Aggregates sentiment into business-ready insights.
 - Identifies audience preference patterns and sentiment-rating mismatches.
 - Supports decision-making for content planning, promotion, and curation.
 
-###Medallion Architecture
+### Medallion Architecture
 ##### Bronze Layer – Raw Ingestion
 - Raw IMDb datasets are ingested as Delta tables without modification.
 - Purpose: Preserve original data for traceability and reprocessing.
@@ -32,7 +32,7 @@ Build a scalable analytics and ML solution that:
    - Highly polarizing content.
    - Sentiment vs rating mismatch detection.
 
-###Machine Learning Component
+### Machine Learning Component
 Model Objective:
 Predict audience sentiment from review text and validate sentiment patterns learned during enrichment.
 Approach.
@@ -65,7 +65,7 @@ Interactive dashboards were built using Gold tables to visualize:
 
 
 
-###Technology Stack
+### Technology Stack
 - Platform: Databricks.
 - Languages: Python, SQL.
 - Processing: PySpark.
@@ -74,12 +74,12 @@ Interactive dashboards were built using Gold tables to visualize:
 - Governance: Unity Catalog.
 - Visualization: Databricks SQL Dashboards.
 
-###Future Enhancements
+### Future Enhancements
 - Multiclass emotion detection (anger, joy, disappointment).
 - Aspect-based sentiment (story, acting, direction).
 - Real-time streaming ingestion for live reviews.
 - Integration with OTT recommendation engines.
 - More advanced NLP models (BERT-based).
 
-###Conclusion
+### Conclusion
 This project demonstrates how Databricks can be used to unify data engineering, analytics, and machine learning into a single, production-ready workflow. By transforming unstructured reviews into trusted insights, the solution helps content teams move beyond ratings and make audience-centric decisions backed by data.
