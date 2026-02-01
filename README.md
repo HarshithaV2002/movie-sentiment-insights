@@ -58,7 +58,8 @@ Interactive dashboards were built using Gold tables to visualize:
 - Review engagement patterns across genres.
 - These dashboards help business users quickly identify content trends and audience preferences.
 
-![Movie Verdict Disstribution](dashboard_pics/Movie_Verdict_Distribution.png)   ![Top 10 Genres by audience preference](dashboard_pics/Audience_Preference.png)
+![Movie Verdict Disstribution](dashboard_pics/Movie_Verdict_Distribution.png)   
+![Top 10 Genres by audience preference](dashboard_pics/Audience_Preference.png)
 ![Sentiment vs rating gap](dashboard_pics/Sentiment_Rating_Gap.png)
 ![Top & Bottom Movies By Audience Reaction](dashboard_pics/Audience_Reaction.png)
 
