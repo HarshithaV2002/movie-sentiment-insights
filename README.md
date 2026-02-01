@@ -51,7 +51,7 @@ Even with a simple model, this approach enables:
 - Validation of sentiment trends used in Gold analytics.
 - This model can later support real-time monitoring of audience reaction for newly released content.
 
-###📊 Dashboard & Insights
+### 📊 Dashboard & Insights
 Interactive dashboards were built using Gold tables to visualize:
 - Genre-wise audience sentiment.
 - Comparison between ratings and emotional response.
