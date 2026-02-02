@@ -1,4 +1,4 @@
-# Movie Review Sentiment Insights
+# OTT Content Sentiment & Performance Analytics using Databricks Lakehouse
 
 ## Introduction
 In the social media and content ecosystem, audience opinions strongly influence content performance, platform recommendations, and investment decisions. Movie reviews, in particular, provide rich unstructured signals that reflect audience satisfaction beyond numerical ratings.This project was developed as part of the Build With Databricks: Hands-On Project Challenge, focusing on the Social Media & Content domain.
